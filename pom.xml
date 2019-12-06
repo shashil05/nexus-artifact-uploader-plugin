@@ -171,8 +171,7 @@
                                </deployProperties>
                               <publisher>
                                     <contextUrl>https://osca-wbench.psst.t-online.corp/nexus/content/repositories/SAMPLE_SNAP/</contextUrl>
-                                    <username>shashil.pohankar@t-systems.com</username>
-                                    <password>Shashil@123</password>
+                          
                                    <repoKey>SAMPLE_SNAP</repoKey>
                                 <snapshotRepoKey>SAMPLE_SNAP</snapshotRepoKey>
                             </publisher>

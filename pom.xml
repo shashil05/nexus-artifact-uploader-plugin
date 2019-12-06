@@ -151,26 +151,27 @@
                 <configuration>
                     <compatibleSinceVersion>2.8</compatibleSinceVersion>
                 </configuration>
+                
+                 <artifactId>nexus-artifact-uploader</artifactId>
+                       <version>2.8.1</version>
+                       <executions>
+                          <execution>
+                             <id>default-deploy</id>
+                             <phase>deploy</phase>
+                             <goals>
+                                <goal>deploy</goal>
+                             </goals>
+                          </execution>
+                       </executions>
+                
             </plugin>
+            
+            
         </plugins>
         
-        <plugins>
-           <plugin>
+       
   
-   <artifactId>nexus-artifact-uploader</artifactId>
-   <version>2.8.1</version>
-   <executions>
-      <execution>
-         <id>default-deploy</id>
-         <phase>deploy</phase>
-         <goals>
-            <goal>deploy</goal>
-         </goals>
-      </execution>
-   </executions>
-             </plugin>
-        </plugins>
-        
+           
     </build>
     
    

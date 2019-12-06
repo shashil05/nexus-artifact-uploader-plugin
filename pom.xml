@@ -164,6 +164,14 @@
                              <goals>
                                 <goal>deploy</goal>
                              </goals>
+                              <configuration>
+                               <publisher>
+                                <contextUrl>https://osca-wbench.psst.t-online.corp/nexus/content/repositories/SAMPLE_SNAP/</contextUrl>
+                                <username>shashil.pohankar@t-systems.com</username>
+                                <password>Shashil@123</password>
+                               
+                        </publisher>
+                    </configuration>
                           </execution>
                        </executions>
                 
@@ -177,7 +185,7 @@
            
     </build>
     
-   
+ <!--  
     
     <distributionManagement>
          <repository>
@@ -191,6 +199,6 @@
             <name>Snapshot</name>
             <url>https://osca-wbench.psst.t-online.corp/nexus/content/repositories/SAMPLE_SNAP/</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
     
 </project>

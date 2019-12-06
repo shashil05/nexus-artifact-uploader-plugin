@@ -154,7 +154,7 @@
             </plugin>
         </plugins>
     </build>
-<!--    <distributionManagement>
+    <distributionManagement>
          <repository>
             <id>Releases</id>
             <name>Releases</name>
@@ -166,6 +166,6 @@
             <name>Snapshot</name>
             <url>https://osca-wbench.psst.t-online.corp/nexus/content/repositories/SAMPLE_SNAP/</url>
         </snapshotRepository>
-    </distributionManagement>-->
+    </distributionManagement>
     
 </project>
